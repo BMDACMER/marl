@@ -1,7 +1,6 @@
 # DGAIL: Diffusion-reward Imitation Learning for Multi-hop Task Offloading in Collaborative Edge Computing
 
-This repository contains the simulation code for our paper  
-**"Multi-hop Task Offloading in Collaborative Edge Computing: A Diffusion-reward Imitation Learning Approach"**, submitted to *IEEE Transactions on Mobile Computing* (Under review).
+This repo is an implementation of our paper**"Multi-hop Task Offloading in Collaborative Edge Computing: A Diffusion-reward Imitation Learning Approach"**, submitted to *IEEE Transactions on Mobile Computing* (Under review).
 
 We propose **DGAIL**, a novel diffusion-based generative adversarial imitation learning framework designed for decentralized multi-hop task offloading in collaborative edge networks. DGAIL introduces a conditional diffusion discriminator and a structure-aware reward mechanism to improve policy learning stability and task success rates under dynamic and partially observable environments.
 
@@ -13,7 +12,7 @@ This repo provides the full implementation of DGAIL and representative baselines
 
 We propose **DGAIL**, a novel diffusion-based generative adversarial imitation learning framework that addresses the multi-hop task offloading problem in collaborative edge computing networks. Our approach introduces:
 
-![](.\assets\method_01.png)
+![](./assets/method_01.png)
 
 - **Conditional Diffusion Discriminator**: Leverages historical action probabilities instead of Gaussian noise for better decision-making
 - **Structure-aware Reward Mechanism**: Improves policy learning stability in dynamic environments
