@@ -1,0 +1,7 @@
+results/
+__pycache__/
+.idea/
+myscp.sh
+test/
+result/
+testbed/results/
